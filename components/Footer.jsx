@@ -19,6 +19,7 @@ export default function Footer() {
             <Link href="/home-theater-installation-okc/">Home Theater OKC</Link>
             <Link href="/whole-home-audio-okc/">Whole-Home Audio</Link>
             <Link href="/low-voltage-wiring-okc/">Cameras & Low-Voltage</Link>
+            <Link href="/builders/">Builders & Contractors</Link>
           </nav>
           <nav className="foot-links" aria-label="Areas">
             <b>Areas</b>
