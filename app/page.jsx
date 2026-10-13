@@ -47,9 +47,9 @@ const SERVICES = [
   ['01', 'TV & Projector Installation', 'TV mounting from $125 — Basic, Standard, Premium, Frame TVs — plus ceiling projectors and fixed screens.', '/#pricing'],
   ['02', 'Home Theater Setup', '5.1 to 11.2.4 Dolby Atmos at $150–200 per speaker, wiring included. Designed to your room.', '/home-theater-installation-okc/'],
   ['03', 'Audio / Video Installation', 'Whole-home and commercial AV — Sonos, Bose, in-ceiling, outdoor and multi-zone audio, video distribution.', '/whole-home-audio-okc/'],
-  ['04', 'Security & Camera Systems', 'Wired PoE camera systems and video doorbells, installed and cabled right — no batteries, no WiFi dropouts.', '/low-voltage-wiring-okc/'],
-  ['05', 'Network & Structured Wiring', 'Cat5e/Cat6, coaxial, speaker and all low-voltage wiring — home-run panels, terminated, labeled, tested.', '/low-voltage-wiring-okc/'],
-  ['06', 'WiFi, Access Points & Bridges', 'Wired access points, building-to-building WiFi bridges, mesh systems, and networks that actually reach.', '/low-voltage-wiring-okc/'],
+  ['04', 'Security & Camera Systems', 'Wired PoE camera systems and video doorbells, installed and cabled right — no batteries, no WiFi dropouts.', '/low-voltage-wiring-okc/#cameras'],
+  ['05', 'Network & Structured Wiring', 'Cat5e/Cat6, coaxial, speaker and all low-voltage wiring — home-run panels, terminated, labeled, tested.', '/low-voltage-wiring-okc/#network'],
+  ['06', 'WiFi, Access Points & Bridges', 'Wired access points, building-to-building WiFi bridges, mesh systems, and networks that actually reach.', '/low-voltage-wiring-okc/#wifi'],
 ];
 
 const THUMBTACK_URL = 'https://www.thumbtack.com/profile/services/444888121324822537/';
@@ -164,6 +164,13 @@ export default function Home() {
                   <span className="go">Explore →</span>
                 </Link>
               ))}
+            </div>
+            <div className="ctaband" style={{ textAlign: 'left', display: 'flex', flexWrap: 'wrap', gap: 16, alignItems: 'center', justifyContent: 'space-between', marginBottom: 0 }}>
+              <div style={{ flex: '1 1 320px' }}>
+                <h2>Builders &amp; contractors</h2>
+                <p style={{ marginBottom: 0 }}>Low-voltage prewire for new homes and buildouts — Cat6, coax, TV and media-wall boxes, on your schedule, labeled and tested.</p>
+              </div>
+              <Link className="btn" href="/builders/">See prewire services</Link>
             </div>
           </div>
         </section>
