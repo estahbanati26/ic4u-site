@@ -35,6 +35,7 @@ export default function Header() {
                 {AREAS.map(([href, label]) => <Link key={href} href={href}>{label}</Link>)}
               </div>
             </div>
+            <Link href="/builders/">Builders</Link>
             <Link href="/#pricing">Pricing</Link>
             <Link href="/gallery/">Photos</Link>
             <Link href="/#faq">FAQ</Link>
@@ -47,6 +48,8 @@ export default function Header() {
               <div className="sheet">
                 <div className="grp">Services</div>
                 {SERVICES.map(([href, label]) => <Link key={href} href={href}>{label}</Link>)}
+                <div className="grp">Builders</div>
+                <Link href="/builders/">Builders &amp; Contractors</Link>
                 <div className="grp">Areas</div>
                 {AREAS.map(([href, label]) => <Link key={href} href={href}>{label}</Link>)}
                 <div className="grp">Book</div>
