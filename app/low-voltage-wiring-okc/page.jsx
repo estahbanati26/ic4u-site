@@ -57,11 +57,13 @@ export default function Page() {
           <div className="svc">
             <div className="cell"><b>Cat5e / Cat6 network wiring</b><span>Hardwired ethernet drops to offices, TVs, gaming setups, and access points — terminated, labeled, and tested. WiFi is a convenience; wire is a guarantee.</span></div>
             <div className="cell"><b>Structured wiring</b><span>Whole-home and office wiring panels — network, coaxial, and speaker runs home-ran to one clean enclosure.</span></div>
-            <div className="cell"><b>Security cameras</b><span>Wired PoE camera systems installed and cabled right — no batteries to change, no WiFi dropouts. We install your gear (Reolink, Lorex, Ubiquiti, Ring…) or spec a system to your budget.</span></div>
+            <div className="cell" id="cameras"><b>Security cameras</b><span>Wired PoE camera systems installed and cabled right — no batteries to change, no WiFi dropouts. We install your gear (Reolink, Lorex, Ubiquiti, Ring…) or spec a system to your budget.</span></div>
             <div className="cell"><b>Coaxial &amp; audio wiring</b><span>Coax runs for TV and internet, speaker wire to every zone, and clean terminations at both ends.</span></div>
-            <div className="cell"><b>Access points &amp; WiFi bridges</b><span>Wired WiFi access points for full-house coverage, and point-to-point bridges for shops, garages, and outbuildings.</span></div>
+            <div className="cell" id="wifi"><b>Access points &amp; WiFi bridges</b><span>Wired WiFi access points for full-house coverage, and point-to-point bridges for shops, garages, and outbuildings.</span></div>
             <div className="cell"><b>All low-voltage installs</b><span>In-ceiling speakers, video doorbells, smart-home devices, media panels — if it runs on low voltage, we run it. Homes and businesses alike.</span></div>
           </div>
+
+          <p>Building new? See <Link href="/builders/">low-voltage prewire for builders &amp; contractors</Link>.</p>
 
           <h2>Finished walls stay finished</h2>
           <p>Most of our wiring goes into homes that are already built. We fish cable through attics, crawlspaces, and wall cavities, cut in clean low-voltage boxes, and leave paint-ready walls — the same in-wall discipline behind our <Link href="/#pricing">Premium TV mounts</Link>.</p>
