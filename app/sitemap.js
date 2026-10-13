@@ -10,6 +10,7 @@ export default function sitemap() {
     { url: `${base}/home-theater-installation-okc/`, priority: 0.8 },
     { url: `${base}/low-voltage-wiring-okc/`, priority: 0.8 },
     { url: `${base}/whole-home-audio-okc/`, priority: 0.8 },
+    { url: `${base}/builders/`, priority: 0.8 },
     { url: `${base}/gallery/`, priority: 0.7 },
     { url: `${base}/quote/`, priority: 0.9 },
     { url: `${base}/guides/tv-mounting-cost-oklahoma-city/`, priority: 0.7 },
