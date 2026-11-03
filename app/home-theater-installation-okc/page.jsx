@@ -37,7 +37,7 @@ export default function Page() {
             <h1>Home theater &amp; surround sound, <em>designed to your room</em>.</h1>
             <p>5.1, 7.2, and Dolby Atmos systems, projectors, theater rooms, and whole-home audio across the OKC metro. $150–200 per speaker installed — wiring included — with the exact number confirmed at a free in-home walkthrough.</p>
             <a className="btn" href="#simulator">Estimate my price range</a>{' '}
-            <Link className="btn btn-ghost" href="/book/" style={{ marginLeft: 10 }}>Book a free walkthrough</Link>
+            <Link className="btn btn-ghost" href="/book/?service=theater" style={{ marginLeft: 10 }}>Book a free walkthrough</Link>
           </div>
           <img src="https://production-next-images-cdn.thumbtack.com/i/445544493443211267/width/640.jpeg" alt="Starfield-ceiling home theater with recliners installed by I Connect 4 U in the OKC metro" style={{ width: '100%', borderRadius: 16, border: '1px solid rgba(255,255,255,.12)' }} />
         </div>
@@ -73,7 +73,7 @@ export default function Page() {
           <div className="ctaband">
             <h2>Hear your room the way it should sound</h2>
             <p>Free walkthrough anywhere in the OKC metro.</p>
-            <Link className="btn" href="/book/">Book a free walkthrough</Link>
+            <Link className="btn" href="/book/?service=theater">Book a free walkthrough</Link>
           </div>
         </div>
       </main>
