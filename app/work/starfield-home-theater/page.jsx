@@ -36,7 +36,7 @@ export default function Page() {
             <div className="crumb"><Link href="/">Home</Link> › <Link href="/gallery/">Our Work</Link> › Starfield Home Theater</div>
             <h1>Project spotlight: <em>a theater with its own night sky</em>.</h1>
             <p>A dedicated home theater we built in an OKC-metro home — starfield ceiling, screen wall, theater seating, and surround sound with every wire run where you can&apos;t see it. Our job, our photo.</p>
-            <Link className="btn" href="/book/">Book a free walkthrough</Link>
+            <Link className="btn" href="/book/?service=theater">Book a free walkthrough</Link>
           </div>
           <img src="https://production-next-images-cdn.thumbtack.com/i/445544493443211267/width/640.jpeg" alt="Dedicated home theater with starfield ceiling and screen wall built by I Connect 4 U in the OKC metro" style={{ width: '100%', borderRadius: 16, border: '1px solid rgba(255,255,255,.12)' }} />
         </div>
@@ -56,7 +56,7 @@ export default function Page() {
           <div className="ctaband">
             <h2>Movie night, upgraded</h2>
             <p>Free walkthrough · custom quote · clean in-wall wiring.</p>
-            <Link className="btn" href="/book/">Book a free walkthrough</Link>
+            <Link className="btn" href="/book/?service=theater">Book a free walkthrough</Link>
           </div>
         </div>
       </main>
