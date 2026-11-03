@@ -45,7 +45,7 @@ export default function Page() {
             <div className="crumb"><Link href="/">Home</Link> › Low-Voltage Wiring &amp; Security Cameras</div>
             <h1>Low-voltage wiring &amp; <em>security camera installation</em> in the OKC metro.</h1>
             <p>Cat5e/Cat6 network drops, structured wiring, PoE camera systems, and every kind of low-voltage install — run clean, in-wall, by an insured local pro. Free walkthrough, itemized custom quote, no obligation.</p>
-            <Link className="btn" href="/book/">Book a free walkthrough</Link>
+            <Link className="btn" href="/book/?service=wiring">Book a free walkthrough</Link>
           </div>
           <img src="https://production-next-images-cdn.thumbtack.com/i/445544493846822921/width/640.jpeg" alt="Clean structured wiring panels installed by I Connect 4 U" style={{ width: '100%', borderRadius: 16, border: '1px solid rgba(255,255,255,.12)' }} />
         </div>
@@ -85,7 +85,7 @@ export default function Page() {
           <div className="ctaband">
             <h2>Get it wired right</h2>
             <p>Free walkthrough anywhere in the OKC metro — Edmond, Oklahoma City &amp; surrounding.</p>
-            <Link className="btn" href="/book/">Book a free walkthrough</Link>
+            <Link className="btn" href="/book/?service=wiring">Book a free walkthrough</Link>
           </div>
         </div>
       </main>
