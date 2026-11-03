@@ -44,7 +44,7 @@ export default function Page() {
           <div className="crumb"><Link href="/">Home</Link> › Whole-Home Audio</div>
           <h1>Whole-home audio — <em>Sonos, Bose &amp; in-ceiling</em> — installed across the OKC metro.</h1>
           <p>Music in every room, one app to run it all. We install and tune Sonos, Bose, and wired in-ceiling systems — kitchen to patio — with the wiring hidden and the setup finished before we leave. Free walkthrough, custom quote.</p>
-          <Link className="btn" href="/book/">Book a free walkthrough</Link>
+          <Link className="btn" href="/book/?service=audio">Book a free walkthrough</Link>
         </div>
       </div>
       <main>
@@ -80,7 +80,7 @@ export default function Page() {
           <div className="ctaband">
             <h2>Music in every room</h2>
             <p>Free walkthrough anywhere in the OKC metro — Edmond, Oklahoma City &amp; surrounding.</p>
-            <Link className="btn" href="/book/">Book a free walkthrough</Link>
+            <Link className="btn" href="/book/?service=audio">Book a free walkthrough</Link>
           </div>
         </div>
       </main>
