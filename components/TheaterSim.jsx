@@ -64,7 +64,7 @@ export default function TheaterSim() {
         <div className="sim-bar"><i style={{ left: Math.min(96, lo / MAXHI * 100) + '%', right: Math.max(2, 100 - hi / MAXHI * 100) + '%' }} /></div>
         <div className="sim-bar-lbl"><span>Soundbar</span><span>Dedicated theater</span></div>
         <div className="sim-desc">{parts.join(' ')}</div>
-        <Link className="btn" href="/book/">Lock in my exact price — free walkthrough</Link>
+        <Link className="btn" href="/book/?service=theater">Lock in my exact price — free walkthrough</Link>
       </div>
     </div>
   );
